@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+group = 'com.github.mvollebregt.firefoxmirrorserver'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.eclipse.jetty:jetty-server:9.1.0.v20131115'
+    compile 'org.eclipse.jetty:jetty-webapp:9.1.0.v20131115'
+    compile 'commons-io:commons-io:2.4'
+}
